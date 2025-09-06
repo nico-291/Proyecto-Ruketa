@@ -242,9 +242,10 @@ body {
     background: rgba(0, 0, 0, 0.7);
     border: 2px solid #c79b3b;
     border-radius: 15px;
-    padding: 2.5rem;
+    padding: 3rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-   
+    margin-bottom: 2.5rem; /* separación entre cards */
+    transition: transform 0.3s ease;
 }
 
 
