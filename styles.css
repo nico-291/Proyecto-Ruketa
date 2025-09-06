@@ -1,0 +1,164 @@
+body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: #ffffff;
+            min-height: 100vh;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+        }
+    /*navbar*/
+   .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 1rem 2rem;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+   }
+    .nav_container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }   
+    .navbar a {
+            color: #c79b3b;
+            text-decoration: none;
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+    .links_nav {
+            display: flex;
+            list-style: none;
+        }
+    .links_nav li {
+            margin-left: 2rem;
+        }
+    .links_nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 1.1rem;
+        }
+    .links_nav a:hover {
+            color: #c79b3b;
+            background-color: rgba(199, 155, 59, 0.1);
+        } 
+     .welcome-container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        /* Recuadro unificado */
+        .unified-box {
+            background: rgba(0, 0, 0, 0.7);
+            border: 2px solid #c79b3b;
+            border-radius: 15px;
+            padding: 3rem;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            width: 100%;
+        }
+        
+        .welcome-section {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid rgba(199, 155, 59, 0.3);
+        }
+        
+        .welcome-section h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #c79b3b;
+        }
+        
+        .welcome-section p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .rules-section {
+            text-align: center;
+        }
+        
+        .rules-section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #c79b3b;
+        }
+        
+        .rules-section p {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Botones */
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .bn-login, .bn-register, .rules-btn {
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 50px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        
+        .bn-login {
+            background-color:transparent;
+            color: #c79b3b;
+            border: 2px solid #c79b3b;
+        }
+        
+        .bn-login:hover {
+             background-color: rgba(199, 155, 59, 0.1);
+            transform: translateY(-3px);
+            
+        }
+        
+        .bn-register {
+            background-color: transparent;
+            color: #c79b3b;
+            border: 2px solid #c79b3b;
+        }
+        
+        .bn-register:hover {
+            background-color: rgba(199, 155, 59, 0.1);
+            transform: translateY(-3px);
+            
+        }
+        
+        .rules-btn {
+            background-color: transparent;
+            color: #c79b3b;
+            border: 2px solid #c79b3b;
+        }
+        
+        .rules-btn:hover {
+              background-color: rgba(199, 155, 59, 0.1);
+            transform: translateY(-3px);
+           
+        }
+    
+   
