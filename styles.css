@@ -160,5 +160,93 @@ body {
             transform: translateY(-3px);
            
         }
+        .rules-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.rules-container header h1 {
+    font-size: 2.8rem;
+    color: #c79b3b;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px rgba(199, 155, 59, 0.4);
+}
+
+.rules-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.rules-card {
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #c79b3b;
+    border-radius: 15px;
+    padding: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.rules-card:hover {
+    transform: translateY(-5px);
+}
+
+.rules-card h2 {
+    color: #c79b3b;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(199, 155, 59, 0.3);
+}
+
+.rules-card h3 {
+    color: #c79b3b;
+    font-size: 1.4rem;
+    margin: 1.5rem 0 1rem;
+}
+
+.rules-card h4 {
+    color: #c79b3b;
+    font-size: 1.2rem;
+    margin: 1.2rem 0 0.8rem;
+}
+
+.rules-card p, .rules-card li {
+    color: #e0e0e0;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.rules-card ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rules-card li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos para los colores de los números */
+.rules-card li strong {
+    color: #c79b3b;
+}
+
+/* Estilos para los botones en la sección de reglas */
+.rules-card > div {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
     
    
