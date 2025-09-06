@@ -228,7 +228,7 @@ body {
     font-size: 2.8rem;
     color: #c79b3b;
     margin-bottom: 1rem;
-    text-shadow: 0 0 10px rgba(199, 155, 59, 0.4);
+   
 }
 
 .rules-grid {
@@ -244,12 +244,10 @@ body {
     border-radius: 15px;
     padding: 2.5rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-    transition: transform 0.3s ease;
+   
 }
 
-.rules-card:hover {
-    transform: translateY(-5px);
-}
+
 
 .rules-card h2 {
     color: #c79b3b;
@@ -286,12 +284,12 @@ body {
     margin-bottom: 0.5rem;
 }
 
-/* Estilos para los colores de los números */
+
 .rules-card li strong {
     color: #c79b3b;
 }
 
-/* Estilos para los botones en la sección de reglas */
+
 .rules-card > div {
     display: flex;
     justify-content: center;
