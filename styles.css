@@ -160,6 +160,56 @@ body {
             transform: translateY(-3px);
            
         }
+   /*Registro*/
+   .registro{
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+   }
+   .register-container{
+        background: rgba(1, 11, 19, 0.671);
+            border: 2px solid #e4c5189a;
+            border-radius: 15px;
+            padding: 3rem;
+            width: 100%;
+            max-width: 600px;
+   }
+   .register-container h2{
+    color: #f3f3f2;
+    text-align: center;
+    margin-bottom: 2rem;
+   }
+  .grupo-form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+  }
+  .grupo-form label{
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    background-color: transparent;
+    color: #d0cedbcb;
+  }
+  .grupo-form input{
+    padding: 0.8rem;
+    border: 1px solid #05151f;
+    border-radius: 8px;
+    background: #3fa3b4a6;
+    color: #fff;
+    font-size: 1rem;
+  }
+  .grupo-form input[type="checkbox"] {
+    margin-right: 0.5rem;
+    transform: scale(1.4);
+  }
+  .text-center{
+    text-align: center;
+    margin-top: 2rem;
+  }/*Fin de Registro*/
+
         .rules-container {
     max-width: 1200px;
     margin: 2rem auto;
