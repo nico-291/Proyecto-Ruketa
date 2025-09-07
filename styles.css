@@ -216,10 +216,6 @@ body {
     padding: 2rem;
 }
 
-.text-center {
-    text-align: center;
-}
-
 .mb-30 {
     margin-bottom: 30px;
 }
@@ -247,9 +243,6 @@ body {
     margin-bottom: 2.5rem; /* separación entre cards */
     transition: transform 0.3s ease;
 }
-
-
-
 .rules-card h2 {
     color: #c79b3b;
     font-size: 1.8rem;
@@ -257,7 +250,6 @@ body {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(199, 155, 59, 0.3);
 }
-
 .rules-card h3 {
     color: #c79b3b;
     font-size: 1.4rem;
@@ -266,41 +258,32 @@ body {
     display: grid;
     border-bottom: 1px solid rgba(199, 155, 59, 0.3);       
 }
-
 .rules-card h4 {
     color: #c79b3b;
     font-size: 1.2rem;
     margin: 1.2rem 0 0.8rem;
 }
-
 .rules-card p, .rules-card li {
     color: #e0e0e0;
     line-height: 1.6;
     margin-bottom: 1rem;
 }
-
 .rules-card ul {
     padding-left: 1.5rem;
     margin-bottom: 1.5rem;
 }
-
 .rules-card li {
     margin-bottom: 0.5rem;
 }
-
-
 .rules-card li strong {
     color: #c79b3b;
 }
-
-
 .rules-card > div {
     display: flex;
     justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
 }
-
 /*Perfil*/
 header h1{
     color: #c79b3b;
@@ -354,7 +337,52 @@ header h1{
 .bn-mesa:hover{
    background-color: rgba(199, 155, 59, 0.1);
    transform: translateY(-3px);
+   
 }
+.profile-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.profile-info, .profile-balance, .profile-transactions{
+    height: fit-content;
+}
+.profile-balance{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.balance-amount{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #c79b3b;
+    margin: 15px;
+    border: 2px solid #c79b3b;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.3);
+}
+.profile-transactions{
+    max-height: 400px;
+    overflow-y: auto;
+}
+.profile-access{
+    grid-column: 1 / -1;
+    margin-top: 20px;
+}
+.profile-access h3{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.grid-grid2{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/*Fin de perfil*/
 /*Login*/
 .formulario{
    flex: 1;
@@ -362,4 +390,163 @@ header h1{
    justify-content: center;
    align-items: center;
    padding: 3rem;
+}
+/*Ruleta*/
+.container{
+        max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+h2 {
+    color: #ffd700;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #ffd700;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #ffd700;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: grid;
+    gap: 30px;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-3 {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.metrics-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px 0;
+}
+.metric-card{
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #c79b3b;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.metric-value{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffd700;
+    margin-top: 10px;
+}
+.roulette-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin: 30px 0;
+}
+.roulette-container, .additional-image-container{
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #c79b3b;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+}
+.roulette-image{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #c79b3b;
+}
+.table-image{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border: 3px solid #c79b3b;
+    border-radius: 10px;
+}
+.additional-image-placeholder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+}
+.last-numbers{
+    background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #c79b3b;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    margin: 20px 0;
+}
+.numbers-grid{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+.bet-number{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.bet-number.red {background: #ff4444; color: white;}
+.bet-number.black {background: #333; color: white;}
+.bet-number.green {background: #00c851; color: white;}
+.controls-grid{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+.game-status {
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.game-status.betting {
+    background: rgba(11, 34, 23, 0.2);
+    color: #cad8d7e5;
+    border: 2px solid #ffd700;
+}
+/*Transacción*/
+.saldo-container{
+ max-width: 600px;
+ margin: 0 auto 2rem auto;
+ padding: 1.5rem;
+}
+.saldo-container .saldo{
+    padding: 0.8rem;
+    font-size: 2rem;
+    margin: 0.5rem;
+    border: 2px solid #c79b3b;
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    min-width: 120px;
+}
+.grid.grid-2{
+    max-width: 1200px;
+    margin: 0 auto;
 }

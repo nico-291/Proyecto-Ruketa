@@ -22,13 +22,13 @@
         <h1>Gestión de Transacciones</h1>
     </header>
     <main class="rules-card">
-        <section class="card text-center">
+        <section class="card text-center saldo-container">
             <h2>Saldo Actual</h2>
             <div class="Saldo">$15.25USD</div>
             <p>Saldo Virtual Disponible</p>
         </section>
-        <div class="grid grid">
-            <section class="rules-card">
+        <div class="grid grid-2">
+            <section class="card">
                 <h2>Depositar fichas</h2>
                 <p>Añade Fichas Virtuales</p>
                 <form>
@@ -50,11 +50,10 @@
                     </div>
                 </form>
             </section>
-            <form class="rules-card">
-                <section class="card">
+            <section class="card">
                 <h2>Retirar Fichas</h2>
                 <p>Retira tus ganancias</p>
-            </section>
+            <form>
                 <div class="grupo-form">
                     <label for="retiro-monto">Cantidad a Retirar</label>
                     <input type="number" id="retiro-monto" name="retiro-monto" placeholder="Ingresa Cantidad" min="5USD">
@@ -75,6 +74,7 @@
                     <button type="submit" class="bn-login">Solicitar Retiro</button>
                 </div>
             </form>
+            </section>
         </div>
     </main>
 </body>

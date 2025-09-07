@@ -19,33 +19,136 @@
         </div>
     </nav>
   <main class="container">
-    <header class="text-center mb-20">
-        <h1>Mesa de la ruleta</h1>
-    </header>
-    <section class="card">
-        <div>Estado: Recibiendo apuestas</div>
-    </section>
-    <div class="grid grid-3 mb-20">
-            <div class="card text-center">
-                <h3> Saldo Disponible</h3>
-                <div>$1,250.75</div>
+        <header class="text-center mb-20">
+            <h1>Mesa de Ruleta Europea</h1>
+        </header>
+
+        <section class="game-status betting">
+            <div>Estado: Recibiendo Apuestas</div>
+        </section>
+
+        <div class="metrics-grid mb-20">
+            <div class="metric-card">
+                <h2>Saldo Disponible</h2>
+                <div class="metric-value">$125.75</div>
             </div>
-            <div class="card text-center">
-                <h3> Apuesta Total</h3>
-                <div>$75.00</div>
+            <div class="metric-card">
+                <h3>Apuesta Total</h3>
+                <div class="metric-value">$100.0</div>
             </div>
-            <div class="card text-center">
-                <h3> Ganancia Potencial</h3>
-                <div>$315.00</div>
+            <div class="metric-card">
+                <h3>Ganancia Potencial</h3>
+                <div class="metric-value">$315.00</div>
             </div>
-        <div class="card">
-            <section class="card text-center">
-                <h2>Ruleta</h2>
-                <div class="ruleta">
-                    <img src="https://masinogames.com/wp-content/uploads/2021/05/roulette-wheel_eu.png" alt="Ruleta">
+        </div>
+
+        <div class="roulette-section">
+            <section class="roulette-container">
+                <h2>Ruleta Europea</h2>
+                <div class="roulette-wheel">
+                    <img src="https://cdn.discordapp.com/attachments/1106035379263524905/1414099418214301747/roulette-wheel_eu.png?ex=68be5635&is=68bd04b5&hm=9c8e88bc486cfe01204c43ddc08b5fd4a4d353a65b6bcec6fef07cd84eba1d26" 
+                         alt="Ruleta Europea" 
+                         class="roulette-image">
+                </div>
+                <div class="text-center mt-20">
+                    <button class="bn-login">
+                        GIRAR RULETA
+                    </button>
+                </div>
+            </section>
+
+            <section class="additional-image-container">
+                <h2>Mesa de Apuestas</h2>
+                <div class="additional-image-placeholder">
+                    <img src="https://cdn.discordapp.com/attachments/1106035379263524905/1414172186574589963/roulette-table-vector.png?ex=68be99fb&is=68bd487b&hm=083370048def28e2012db9ba2e9fc06174387a556a9381b39456c75d1eade904"
+                         alt="Mesa Ruleta" 
+                         class="table-image">
                 </div>
             </section>
         </div>
-</main>
+
+        <div class="last-numbers">
+            <h3>Últimos 5 Números</h3>
+            <div class="numbers-grid">
+                <div class="bet-number red">7</div>
+                <div class="bet-number black">22</div>
+                <div class="bet-number red">19</div>
+                <div class="bet-number green">0</div>
+                <div class="bet-number black">15</div>
+            </div>
+        </div>
+
+        <section class="card">
+            <h2>📋 Mis Últimas 5 Apuestas</h2>
+            <div style="overflow-x: auto;">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Hora</th>
+                            <th>Tipo de Apuesta</th>
+                            <th>Monto</th>
+                            <th>Número Ganador</th>
+                            <th>Resultado</th>
+                            <th>Variación Saldo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>14:32</td>
+                            <td>Rojo + Número 7</td>
+                            <td>€50.00</td>
+                            <td>7 (Rojo)</td>
+                            <td>Ganado</td>
+                            <td class="positive">+€180.00</td>
+                        </tr>
+                        <tr>
+                            <td>14:28</td>
+                            <td>Negro</td>
+                            <td>€25.00</td>
+                            <td>19 (Rojo)</td>
+                            <td>Perdido</td>
+                            <td class="negative">-€25.00</td>
+                        </tr>
+                        <tr>
+                            <td>14:25</td>
+                            <td>Par + 2ª Docena</td>
+                            <td>€40.00</td>
+                            <td>22 (Negro)</td>
+                            <td>Ganado</td>
+                            <td class="positive">+€120.00</td>
+                        </tr>
+                        <tr>
+                            <td>14:21</td>
+                            <td>Número 0</td>
+                            <td>€10.00</td>
+                            <td>15 (Negro)</td>
+                            <td>Perdido</td>
+                            <td class="negative">-€10.00</td>
+                        </tr>
+                        <tr>
+                            <td>14:18</td>
+                            <td>Impar</td>
+                            <td>€20.00</td>
+                            <td>17 (Negro)</td>
+                            <td>Ganado</td>
+                            <td class="positive">+€20.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="card text-center">
+            <h2>Controles de Juego</h2>
+            <div class="controls-grid">
+                <a href="Perfil.html" class="bn-login">
+                    Volver al Perfil
+                </a>
+                <a href="Transacciones.html" class="bn-register">
+                    Hacer Transacción
+                </a>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
