@@ -9,7 +9,7 @@
 <body>   
     <nav class="navbar">
         <div class="nav_container">
-            <a href="index.html">Casino Ruleta</a>
+            <a href="index.html">Gira y Apuesta</a>
         <ul class="links_nav">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Register.html">Registro</a></li>
@@ -22,21 +22,26 @@
 
     <main class="container">
         <div class="formulario">
-            <h2>Inicio de sesión</h2>
-            <form method="post">
-                <div class="username">
-                    <label for="usuario">Nombre de usuario</label>
-                    <input type="text" id="usuario" name="usuario" required>
-                </div>
-                <div class="password">
-                    <label for="password">Contraseña</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <input type="submit" value="Iniciar"> 
-                <div class="registrarse">
-                    <a href="Login.html">Crear una cuenta</a>
-                </div>
-            </form>
+            <div class="rules-card">
+                <h2>Inicio de sesión</h2>
+                <form action="Perfil.html" method="post">
+                    <div class="grupo-form">
+                        <label for="usuario">Nombre de usuario</label>
+                        <input type="text" id="usuario" name="usuario" required>
+                    </div>
+                    <div class="grupo-form">
+                        <label for="password">Contraseña</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                        <div class="text-center mt-20">
+                        <button type="submit" class="bn-login">Iniciar sesión</button>
+                    </div>
+                         <div class="text-center mt-20">
+                            <p>¿No tienes cuenta? Registrate ahora</p>
+                        <button type="submit" class="bn-register">Registrarse</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </main>
     </body>
