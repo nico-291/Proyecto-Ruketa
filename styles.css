@@ -262,6 +262,9 @@ body {
     color: #c79b3b;
     font-size: 1.4rem;
     margin: 1.5rem 0 1rem;
+    padding-bottom: 0.5rem;
+    display: grid;
+    border-bottom: 1px solid rgba(199, 155, 59, 0.3);       
 }
 
 .rules-card h4 {
@@ -296,6 +299,53 @@ body {
     justify-content: center;
     gap: 1.5rem;
     margin-top: 2rem;
+}
+
+/*Perfil*/
+header h1{
+    color: #c79b3b;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(199, 155, 59, 0.3);
+    text-align: center;
+}
+.card-user{
+    background: #0f2027;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid;
+    margin-bottom: 30px;
+}
+
+.grid-grid{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display:grid;
+    gap: 40px;
+}
+.acceso-ruleta {
+        background: #0f2027;
+    border-radius: 15px;
+    padding: 25px;
+    border: 1px solid;
+    margin-bottom: 30px;
+}
+.bn-mesa{
+   background-color: transparent;
+   color: #c79b3b;
+   border: 2px solid #c79b3b;
+}
+.bn-mesa:hover{
+   background-color: rgba(199, 155, 59, 0.1);
+   transform: translateY(-3px);
+}
+/*Login*/
+.formulario{
+   flex: 1;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 3rem;
 }
 
    
