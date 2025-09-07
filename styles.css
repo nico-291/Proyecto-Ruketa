@@ -197,8 +197,8 @@ body {
     padding: 0.8rem;
     border: 1px solid #05151f;
     border-radius: 8px;
-    background: #3fa3b4a6;
-    color: #fff;
+    background:#dfdbd4e3;
+    color: #0e0707;
     font-size: 1rem;
   }
   .grupo-form input[type="checkbox"] {
@@ -309,6 +309,22 @@ header h1{
     padding-bottom: 0.5rem;
     border-bottom: 1px solid rgba(199, 155, 59, 0.3);
     text-align: center;
+}
+.saldo{
+       background: rgba(0, 0, 0, 0.7);
+    border: 2px solid #c79b3b;
+    border-radius: 15px;
+    padding: 3rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2.5rem; /* separación entre cards */
+    transition: transform 0.3s ease;
+}
+.saldo h2{
+     color: #c79b3b;
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(199, 155, 59, 0.3);
 }
 .card-user{
     background: #0f2027;
